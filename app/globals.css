@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-navy-900 text-slate-100;
+}
+
+.card {
+  @apply rounded-xl border border-white/5 bg-slate-900/60 shadow-lg shadow-black/40 backdrop-blur;
+}
+
+.section-title {
+  @apply text-sm font-semibold uppercase tracking-[0.18em] text-slate-400;
+}
+
